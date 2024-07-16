@@ -1,0 +1,24 @@
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+
+VGG model
+Key: pct_match, Value: 114.28571428571428
+Key: pct_correct_dogs, Value: 100.0
+Key: pct_correct_breed, Value: 93.33333333333333
+Key: pct_correct_notdogs, Value: 0.0
+
+Resnet model
+Key: pct_match, Value: 121.21212121212122
+Key: pct_correct_dogs, Value: 100.0
+Key: pct_correct_breed, Value: 90.0
+Key: pct_correct_notdogs, Value: 0.0
+
+Alexnet model
+Key: pct_match, Value: 133.33333333333331
+Key: pct_correct_dogs, Value: 100.0
+Key: pct_correct_breed, Value: 80.0
+Key: pct_correct_notdogs, Value: 0.0
+
+
+Based on the tables above, VGG model is the best because of the speed and accuracy it used to classifify correct dogs and correct breeds.  
